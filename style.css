@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;   
+    background-color: #f2f2f2;       
+    color: #222222;                  
+    margin: 0;
+}
+
+header {
+    background-color: #0b524c;        
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+main {
+    max-width: 1000px;                
+    margin: 0 auto;                   
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 3px solid #0f766e; 
+    padding-bottom: 5px;
+}
+
+.kartyak {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.kartya {
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 8px;              
+    padding: 15px;
+    width: 280px;
+}
+
+.ar {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f766e;
+}
+
+.nem-elerheto {
+    background-color: gray;       
+    color: #0b524c;
+}
+
+.nem-elerheto .ar {
+    color: #0b524c;
+}
+
+footer {
+    background-color: #0b524c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
